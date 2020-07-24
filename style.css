@@ -1,0 +1,85 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Poppins";
+  margin: 2em;
+}
+
+h1 {
+  color: black;
+}
+
+.background-spray {
+  background-color: #80cde0;
+}
+
+.border-spray {
+  border-color: #80cde0;
+}
+.background-grey {
+  background-color: #c4c4c4;
+}
+
+.background-alice-blue {
+  background-color: #E6F2FE
+}
+
+.background-ebony-clay {
+  background-color: #22313F
+}
+
+.navbar {
+  font-family: "Poppins";
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+.worksans {
+  font-family: "Work Sans";
+}
+
+ol {
+  font-size: 21px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-move-wrapper {
+  position:relative;
+  overflow:hidden;
+  max-width:1140px;
+  margin:0 auto;
+}
+
+.image-box {
+  height: auto;  
+  width: 50px;
+}
+
+#borderLeft {
+  border-left: 2px solid #f51c40;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+}
+
+/* Overlap the images on tablets and up */
+@media (min-width:769px) {
+    .img-move {
+    position:absolute;
+    width:55%;
+  }
+  .img-move-1 {
+    left:0;
+  }
+  .img-move-2 {
+    right: 0;  
+    bottom:0;
+  }
+}
+
